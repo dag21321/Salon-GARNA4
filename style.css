@@ -1,0 +1,124 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  margin: 0;
+}
+
+.logo {
+  font-size: 225%;
+  color: white;
+  text-shadow: 0 0 0.25rem #ffffff, 0 0 0.5rem #cccccc, 0 0 0.75rem #999999;
+  transition: text-shadow 0.3s ease;
+  cursor: default;
+  margin: 1.5rem 0rem 0rem 2rem;
+}
+
+.logo:hover {
+  text-shadow: 0 0 0.35rem #ffffff, 0 0 0.7rem #ffffff, 0 0 1rem #cccccc,
+    0 0 1.5rem #999999;
+}
+
+.button {
+  color: grey;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 2rem 0.5rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0rem 0rem 0rem;
+  font-size: 110%;
+}
+
+nav a {
+  font-size: 115%;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  font-size: 130%;
+  text-shadow: 0 0 0.25rem #ffffff, 0 0 0.5rem #cccccc, 0 0 0.75rem #999999;
+}
+
+.bs {
+  background-color: #121212;
+  padding: 7%;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 2rem;
+}
+
+.bs p {
+  font-size: 100%;
+}
+
+.button {
+  color: grey;
+}
+
+main {
+  color: white;
+  background-color: black;
+  padding: 1%;
+}
+
+footer {
+  background-color: #121212;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.ab {
+  padding: 3%;
+}
+
+.text {
+  padding: 0% 0% 5% 3%;
+  font-size: 135%;
+}
+
+span{
+  font-size: 140%;
+}
+
+iframe{
+  border-radius: 0.5rem;
+  width: 35rem;
+  height:20rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.num{
+  font-size: 155%;
+  cursor: default;
+  transition: 0.3s;
+}
+
+.num:hover{
+    font-size: 170%;
+  text-shadow: 0 0 0.20rem #ffffff, 0 0 0.7rem #ffffff, 0 0 1rem #cccccc,
+    0 0 1.5rem #999999;
+}
+
+h2{
+  font-weight: 700;
+}
+
+.cont13{
+  text-align: center
+}
